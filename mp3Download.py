@@ -42,7 +42,3 @@ class Downloader:
                     stream.download(download_dir)
                     subprocess.call(['ffmpeg', '-i', video_file, audio_file])
                     os.remove(video_file)
-
-if __name__ == "__main__":
-    download = Downloader()
-    download.download_mp3()
