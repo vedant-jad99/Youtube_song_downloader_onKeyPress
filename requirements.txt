@@ -1,0 +1,4 @@
+PyAutoGUI==0.9.50
+pyperclip==1.8.0
+pytube3==9.6.4
+pytube==9.6.0
